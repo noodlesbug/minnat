@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Word Match</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="title">DINO WORD MATCH</div>
+        <div id="stats">
+            <div id="level">LEVEL: 1</div>
+            <div id="score">SCORE: 0</div>
+        </div>
+        <div id="word-display"></div>
+        <div id="floor"></div>
+        <div id="dino">
+            <svg viewBox="-20 -40 45 50" width="40" height="40">
+                <!-- Dino body -->
+                <path d="M-15,0 L-15,-30 L-5,-30 L-5,-35 L5,-35 L5,-25 L15,-25 L15,0 Z" fill="black"/>
+                <!-- Dino head -->
+                <path d="M-5,-30 L-5,-40 L25,-40 L25,-30 L15,-30 L15,-25 L5,-25 L5,-30 Z" fill="black"/>
+                <!-- Dino eye -->
+                <circle cx="15" cy="-35" r="2" fill="white"/>
+                <!-- Dino legs -->
+                <path d="M-10,0 L-10,10 L-5,10 L-5,0 Z" fill="black"/>
+                <path d="M5,0 L5,10 L10,10 L10,0 Z" fill="black"/>
+            </svg>
+        </div>
+        <div id="instructions">Use arrow keys to move. Press ENTER to select a letter.</div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
