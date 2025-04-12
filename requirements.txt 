@@ -1,6 +1,0 @@
-streamlit
-pandas
-matplotlib==3.7.1
-yfinance
-requests
-beautifulsoup4
